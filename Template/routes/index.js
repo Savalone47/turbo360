@@ -6,7 +6,8 @@ const router = vertex.router()
 router.get('/', (req, res) => {
 
 	const data = {
-		greeting: 'Welcome To My First Website in Javascript'
+		greeting: 'Welcome To My First Website in Javascript',
+		description: 'this is some exemple of javascript website'
 	}
 
 	res.render('index', data)
